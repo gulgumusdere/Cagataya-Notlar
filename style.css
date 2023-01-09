@@ -1,0 +1,178 @@
+
+body {
+    background-color: rgb(177, 143, 209); 
+    /* text-align:center; */
+    background: url(/pic.jpg);
+    background-repeat: no-repeat;
+    
+    font-family: sans-serif;}
+h1 {color:blue;
+    font-size: 25px;}
+h2 {color:purple
+}
+p {text-align: center;
+}
+ul{
+    color:greenyellow; 
+    text-align: center;
+    list-style-position: inside;
+    
+}
+.button a {
+    text-decoration: none; 
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    border-radius: 100%;
+}
+.section {
+    border: 5px dotted black;
+    background: linear-gradient(to right, red,black, blue);
+    width: 500px;
+    position: relative;
+    left: 33%;
+    margin: 15px;
+    text-align: center;
+    
+}
+.section h1 {
+    position: relative;
+    left: 145px;
+
+    background: repeating-linear-gradient(aqua, grey 2px, rgb(152, 13, 36) 2px );
+    border-radius: 100%;
+    width: 250px;
+    cursor: pointer;
+    
+}
+.section h1:hover {
+    box-shadow: 5px 5px;
+
+}
+section>h1 {
+    color: red;
+    font-size: 40px;
+    opacity: 50%;
+}
+.section span {
+    color: rgb(145, 95, 20);
+}
+.ortaparagraf {
+    color: antiquewhite;
+    width: 750px;
+    margin: 15px;
+    background-color: purple;
+    position: relative;
+    left: 25%;
+}
+ul {
+    width: 900px;
+    position: relative;
+    left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background: rgba(0, 0, blue, 0.5); */
+    background: linear-gradient(to right, purple,yellow);
+    color: black;
+    list-style-type: none;
+    
+    
+}
+#anaKutu {
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    /* background: red; */
+    /* opacity: 50%; */
+    /* background: linear-gradient(to right, purple,yellow); */
+    background: repeating-linear-gradient( green, yellow 20px, brown 20px);
+    text-align: justify;
+    column-count: 4;
+    column-rule: 5px;
+    column-rule-color: blueviolet;
+    column-rule-style: solid;
+    column-gap: 50px;
+}
+
+#kutuKapsa {
+    width: 936px;
+    height: 470px;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    /* direction: rtl; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse; */
+    /* align-content: center; */
+    align-content: space-around;
+    
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    align-items: center;
+
+
+}
+.kutu {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 5px;
+    
+    transition: 1s;
+}
+#kutuKapsa:hover .kutu {
+    /* transform: translateX(96px); */
+    /* transform: scale(1,5); */
+    transform: rotate(360deg);
+    /* transform: skew(10deg, 20deg); */
+
+}
+#kutuKapsa2 {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    /* background: red; */
+    border: 2px solid black;
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+    /* background-image: url(/851323-Fishing-Fishing-rod-Closeup.jpg), url(/i.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, top left; */
+    background: url(/851323-Fishing-Fishing-rod-Closeup.jpg) no-repeat bottom right, url(/i.webp) no-repeat top left;
+}
+/* .box {
+    width: 600px;
+    height: 300px;
+    float: left;
+    border: 2px solid red;
+    box-sizing: border-box;
+} */
+#kutu {
+    width: 1000px;
+    background: black;
+    background: url(/1500x500.jpg) no-repeat center;
+    
+    /* color: white; */
+    border: 5px dotted red;
+    padding: 50px;
+    margin: auto;
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    background-origin: content-box;
+}
